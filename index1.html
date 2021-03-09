@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>thành nhân</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+
+            }
+            html{
+                background-color: antiquewhite;
+                font-size: 20px;
+
+               
+            }
+            .row{
+                width: 1140px;
+                margin: 0 auto;
+            }
+            .row1{
+                background-color: blue;
+            }
+            #icon{
+                background-color: chartreuse;
+            }
+            .btn{
+                cursor: pointer;
+                padding: 5px;
+                background-color: rgb(218, 69, 218);
+            }
+        </style>
+
+      
+
+    </head>
+    <body>
+            <header>
+                <div class="row">
+                    <h1 class="h11">Thành nhân</h1>
+                </div>
+            
+            </header>
+            <div class="container">
+                    <div id="icon">đây là icon</div>
+                    <h1>thành nghĩa</h1>
+            </div>
+            <div class="row">
+                <form > 
+                    <p>đây là 1 form</p>
+                    nhập vào userName <input type="text" id="txbUser" placeholder="nhập vào name"> <br>
+                    nhập vào passWord <input type="text" id="txbPass" placeholder="nhập vào Pass"> <br>
+      
+                    <button onclick="batDauTinh(document.getElementById('txbUser').value,document.getElementById('txbPass').value)" class="btn">bắt đầu</button>
+                </form>
+                
+            </div>
+            <script src="javaScript1.js">
+
+            </script>
+    </body>
+</html>
